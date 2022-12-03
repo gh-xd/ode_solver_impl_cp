@@ -30,9 +30,9 @@ To solve the lorenz system of ODEs with:
 
 :no_entry_sign: C++ & Python mixed programming would **not help much**, the huge amount of iteration and the unnecessary data exchange in memory still limits the performance
 
- :white_check_mark: Generating C lib via Python accelerates very much, but might be a solution in certain circumstance, if Python is being used as glue language not only for solving ODEs.
+ :white_check_mark: Generating C lib via Python accelerates very much, but might only be a solution in certain circumstance, for example, if Python is used as glue language not only for solving ODEs.
 
-:heavy_exclamation_mark: Pure hand-written C lib with RK4 is still not slower than Scipy. Algorithm optimization matters a lot. 
+:heavy_exclamation_mark: Pure hand-written C lib with RK4 is still slower than Scipy. Algorithm optimization matters a lot. 
 
 | Impl. solutions                 | Solver time consumption | Runtime  |
 | ------------------------------- | ----------------------- | -------- |
